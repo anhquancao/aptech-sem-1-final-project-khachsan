@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+     border: 0pt none;
+     font: inherit;
+     margin: 0pt;
+     padding: 0pt;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+
+body {
+     line-height: 1;
+}
+
+ol, ul {
+     list-style: none outside none;
+}
+
+blockquote, q {
+     quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+     content: none;
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0pt;
+}
+a{
+	text-decoration:none;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+/*---end reset---*/	
+
+body{
+	background:url(../img/loading.gif) no-repeat center 300px,url(../img/bg.png);
+}
+
+.fullscreen{
+    position:fixed;
+    z-index:0;
+    width:100%;
+    height:100%;
+	left:0;
+	top:0;
+	display:none;
+}
+
+.slide img{
+	width:100%;	
+	height:100%;
+}
+
+.pagination_container{
+    position:Absolute;
+    z-index:10;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:url(../img/bg.png);
+    height:101px;
+}
+
+.pagination {
+	width:918px;
+	height:73px;
+	margin:14px auto;
+	
+}
+
+.pagination li{
+    display:inline;
+    float:left;
+}
+
+.pagination a{
+    float:left;
+    display:block;
+	font-size:0;
+	margin-left:5px;
+	margin-right:5px;
+	border:3px solid #262626;
+	opacity:0.5;
+}
+
+.pagination .current a{
+	opacity:1;
+}

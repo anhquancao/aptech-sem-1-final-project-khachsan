@@ -1,0 +1,210 @@
+.content{
+    margin-top: -50px;
+}
+.booking_home{
+    background-color: #d8d8d8;
+    padding-bottom: 20px;
+    width: 980px;
+    margin:auto;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.booking_body{
+    background-color: gold; 
+    width: 640px; 
+    margin: auto;
+}
+/*.booking{
+    width:980px;
+    margin: auto;    
+    border:  1px solid #000;
+    display: inline;
+}*/
+.tbbooking{
+    width: 68%;
+}
+.tbbooking tr td{
+    padding: 10px 6px;
+}
+.tbbooking tr th{
+    padding:5px;
+    font-size: 20px;
+}
+.tbbooking tr td input{
+   margin-left: 18px;
+   padding: 3px 2px;
+}
+table
+{ 
+    cellspacing: 0;
+    cellpadding: 0; 
+    border-spacing: 0px;
+    width:80%;
+    margin:auto;
+    
+   // border: solid 1px black;    
+}
+.nice_form{
+    margin: 30px;
+    padding:30px;
+}
+.nice_td_text{
+    text-align: left;
+    font-size: 17px;
+    padding: 10px 3px; 
+    width: 300px;
+}
+.nice_td_input{
+    padding: 4px 8px;
+    font-size: 16px;
+}
+.nice_td_smaller_input{
+    padding: 2px 8px;
+    font-size: 16px;
+}
+.nice_td_submit{
+    margin-top: 10px;
+    clear: both;
+    background-color: #5d457e;
+    padding: 6px 8px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+    color:#fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.nice_td_submit_01{
+     clear: both;
+    background-color: #f78d1d;
+    margin-left: 500px;
+    padding: 4px 8px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+    color:#fff;
+   // border: solid 1px da7c0c;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btnbooking{
+   padding-top: 20px;
+   padding-bottom: 25px;
+}
+/*table td{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}*/
+h1{
+    font-size: 26px;
+    color: cornflowerblue;
+    line-height: 1;
+    margin: 10px 0;
+    font-weight: bold;
+    font-style: italic;
+    padding: 16px;
+}
+.erorr{
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+#erorr{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.clname_erorr{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#tbdondatphong{
+    font-size: 14px;   
+}
+.td_value{
+    text-indent: 30px;
+}
+/////////////
+.btnbooking{
+  //float: right;
+  margin-right:400px;
+}
+.chonphong{
+    clear: both;
+    //float: left;
+    //display: inline;
+     width:800px;
+    margin: -200px;
+}
+.tdLoaiphong{
+    text-align: left;
+}
+.tittle{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+//css rieng phan popup
+.web_dialog_overlay
+        {
+            cursor: pointer;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #848A8F;
+            opacity: .7;
+            filter: alpha(opacity=70);
+            -moz-opacity: .7;
+            z-index: 1100;
+            display: block;
+        }
+.web_dialog
+        {
+            display: none;
+            position: fixed;
+            width: 860px;
+            //height: 200px;
+           // top: 50%;
+           // left: 50%;
+            //margin-left: -190px;
+           // margin-top: -100px;
+            background-color: #ffffff;
+            border: 2px solid #336699;
+            padding: 0px;
+            z-index: 102;
+            font-family: Verdana;
+            font-size: 10pt;
+            left: 200px;
+            top: 10px;
+        }
+.web_dialog_title
+        {
+            border-bottom: solid 2px #336699;
+            background-color: #336699;
+            padding: 4px;
+            color: White;
+            font-weight:bold;
+        }
+.web_dialog_title a
+        {
+            color: White;
+            text-decoration: none;
+        }
+.align_right
+        {
+            text-align: right;
+        }
